@@ -20,7 +20,7 @@ int main()
 	Totalq= float (stq+ndq+rdq)/3;
 	cout<<"Quizz Total:"<<Totalq<<endl;
 	cout<<"Mid term:"<<mid<<endl;
-    cout<<"Final:"<<final<<endl;
+        cout<<"Final:"<<final<<endl;
 	Total=Totalq+mid+final;
 	cout<<"Total:"<<Total<<endl;
 	cout<<"Your score is"<<(Total>=50?" pass":" fail");
